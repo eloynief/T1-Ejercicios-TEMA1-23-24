@@ -31,14 +31,14 @@ public class Ej5 {
 
 		// crea salto de linea
 		sc.nextLine();
-		// mensaje que muestra que introduzcas el valor de c
+		// mensaje que muestra que se introduzca el valor de c
 		System.out.println("Ahora introduce otro numero: ");
 		
 		// se introduce el valor de la altura del triangulo
 		c = sc.nextInt();
 		
 
-		// mensaje que muestra que introduzcas la incognita
+		// mensaje en pantalla que dice que escribas el valor de la incognita
 		System.out.println("Ahora introduce el valor de x: ");
 		
 		// se introduce el valor de la altura del triangulo
@@ -48,7 +48,7 @@ public class Ej5 {
 		y=(a*((int)Math.pow(x,2)))+(b*x)+c;
 
 		//muestra el area del traingulo por pantalla
-		System.out.println(": " + y);
+		System.out.println("El valor de y es: " + y);
 		
 		
 		//cierre de scanner
