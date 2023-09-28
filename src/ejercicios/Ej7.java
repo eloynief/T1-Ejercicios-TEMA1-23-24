@@ -11,13 +11,13 @@ public class Ej7 {
 
 
 		// int que representan la base,altura y area del triangulo
-		int mm, cm, m, x, suma;
+		double mm, cm, m, suma;
 
 		// mensaje por pantalla que dice que pongas la a
 		System.out.println("Introduzca un numero: ");
 
 		// introduce el valor de la base del traingulo
-		mm = sc.nextInt();
+		mm = sc.nextDouble();
 
 		// se hace un salto de linea
 		sc.nextLine();
@@ -26,7 +26,7 @@ public class Ej7 {
 		System.out.println("Introduzca otro numero: ");
 		
 		// se introduce el valor de la altura del triangulo
-		cm = sc.nextInt();
+		cm = sc.nextDouble();
 		
 		// crea salto de linea
 		sc.nextLine();
@@ -34,7 +34,7 @@ public class Ej7 {
 		System.out.println("Ahora introduce otro numero: ");
 		
 		// se introduce el valor de la altura del triangulo
-		m = sc.nextInt();
+		m = sc.nextDouble();
 		
 
 		// suma de las tres longitudes introducidas en centimetros

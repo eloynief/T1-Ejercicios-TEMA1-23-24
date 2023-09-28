@@ -9,6 +9,7 @@ public class Ej8 {
 		//creación de scanner
 		Scanner sc=new Scanner(System.in);
 		
+		//
 		final double adultos,niños;
 		adultos=20;
 		niños=15.50;
