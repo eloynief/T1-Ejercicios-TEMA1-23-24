@@ -21,7 +21,7 @@ public class Ej6 {
 		minutos=(segundos%3600)/60;
 		calculoSec=(segundos%3600)%60;
 		
-		//
+		//muestra en pantalla las horas, minutos y segundos
 		System.out.println(horas+"h "+minutos+"min "+calculoSec+"sec");
 		
 		//cierre de scanner
